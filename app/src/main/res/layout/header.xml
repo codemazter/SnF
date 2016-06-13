@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_below="@+id/top_header"
+    android:id="@+id/searchLayout"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:background="#1abc9c"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:hint="Search Company"
+        android:id="@+id/key"
+        android:inputType="text"
+        android:padding="10dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:background="@drawable/edit_settings">
+    </EditText>
+    <Button android:text=""
+        android:textColor="#ffffff"
+        android:id="@+id/lookup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lookup"
+        android:gravity="center" />
+</LinearLayout>
